@@ -20,8 +20,8 @@ The analysis is inspired by a [Kaggle notebook](https://www.kaggle.com/code/ahme
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/AaronOrtega1/DataAnalysisPractice
+cd DataAnalysisPractice
 ```
 
 2. Build and start the Docker container:
@@ -37,6 +37,8 @@ docker compose up -d --build
 ```bash
 docker container logs jupyter_python 2>&1 | grep "token"
 ```
+
+- If you are not in Linux you can just run `docker container logs jupyter_python`
 
 You should get a link like the following if everything is already installed if not wait a little bit and try again:
 
